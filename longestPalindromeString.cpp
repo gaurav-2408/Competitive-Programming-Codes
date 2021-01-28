@@ -20,7 +20,7 @@ using namespace __gnu_pbds;
 #define all(a) a.begin(),a.end()
 #define sz(a) (ll)(a.size())
 
-bool isPalin(string s)
+bool isPalin(string s)	//function to validate whether string is palindrome or not
 {
     if(s == string(s.rbegin(), s.rend()))
         return true;
